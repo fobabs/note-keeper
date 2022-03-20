@@ -34,7 +34,7 @@ class Note {
   }
 
   // Convert Note to a Map object
-  Map toMap() {
+  Map<String, dynamic> toMap() {
     Map<String, dynamic> map = {};
     map['id'] = id;
     map['title'] = title;
